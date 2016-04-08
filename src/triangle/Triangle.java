@@ -59,5 +59,15 @@ public class Triangle {
 		else{
 			System.out.println("input is not valid");
 		}
+		
+		if(v == true){
+			double ab = Math.pow(a, 2.0) + Math.pow(b, 2.0);
+			if(Math.pow(c, 2.0) == ab){
+				System.out.println("Right Triangle");
+			}
+			else{
+				System.out.println("Is Not a Right Triangle");
+			}
+		}
 	}
 }
